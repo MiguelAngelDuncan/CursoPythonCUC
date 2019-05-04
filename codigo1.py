@@ -120,3 +120,18 @@ if a == b and a > 2:
      print (a, "Es igual a",b,"Mayor que 2") 
      
      
+     
+print("Digite su edad: ")
+edad=input()
+edad=int(edad)
+if edad>=18:
+    print("Es mayor de edad")
+else:
+    print("No es mayor de edad")  
+    
+
+#Si de Linea con sino
+print('Es mayor de edad') if edad>=18 else print ('Menor de edad')
+
+#Si de Linea sin sino    
+if edad >=18: print("Es mayor de edad")
